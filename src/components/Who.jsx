@@ -29,6 +29,7 @@ const Right = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  background-color: white;
 `;
 
 const Title = styled.h1`
@@ -39,7 +40,7 @@ const Title = styled.h1`
 const WhatWeDo = styled.div`
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 `;
 
 const Line = styled.img`
@@ -71,7 +72,7 @@ const Button = styled.button`
 
 const Who = () => {
   return (
-    <Section>
+    <Section id="about">
         <Container>
 
           {/* LEFT SECTION  */}
